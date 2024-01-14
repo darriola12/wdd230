@@ -65,7 +65,7 @@ nav #navagation_options a
 nav #navagation_options a:hover
 {
     color: white;
-    font-size: 22px;
+    font-size: 23px;
 }
 
 /* MAIN EDITION */
@@ -75,7 +75,7 @@ main
     max-width: 100%;
     display: grid;
     grid-template-columns: auto;
-    grid-row: 1fr 1fr 1fr;
+    grid-template-rows:  100px 1fr 1fr;
     justify-content: center;
     
 }
