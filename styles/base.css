@@ -92,7 +92,9 @@ main
 }
 .card
 {
-    border: 2px solid black;
+    display: grid;
+    outline: auto;
+    margin: 5px;
 }
 .card h3
 {
