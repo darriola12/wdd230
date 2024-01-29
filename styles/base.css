@@ -63,15 +63,7 @@ nav #navagation_options a:hover
     font-size: 23px;
 }
 
-#menu::before
-{
-    content: "☰";
-}
-#menu::before
 
-{
-    content: "❎";
-}
 
 /* MAIN EDITION */
 
