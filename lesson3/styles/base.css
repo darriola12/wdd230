@@ -1,0 +1,18 @@
+/* header  */
+
+#img_logo
+{
+    height: 45px;
+    width: 60px;   
+}
+
+header nav
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#logo
+{
+    display: flex;
+}

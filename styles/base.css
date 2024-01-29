@@ -13,9 +13,6 @@
     --cards: #E5FFDE;
     --animation: #18020C;
 
-
-
-
 }
 /* HEADER */
 nav #navagation_picture img
@@ -23,9 +20,7 @@ nav #navagation_picture img
     width:80px;
     height: 100px;
     border-radius: 2px; 
-    margin-right: 30px;
-
-    
+    margin-right: 30px;   
     
 }
 header 
@@ -66,6 +61,16 @@ nav #navagation_options a:hover
 {
     color: black;
     font-size: 23px;
+}
+
+#menu::before
+{
+    content: "☰";
+}
+#menu::before
+
+{
+    content: "❎";
 }
 
 /* MAIN EDITION */

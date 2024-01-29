@@ -15,8 +15,7 @@
     {
         display: grid;
         grid-template-columns: 1fr 500px;
-        
-
+    
         
     }
     main #initial_part 
@@ -26,11 +25,4 @@
        
     }
 
-
-
-
-
-
-
-    
 }

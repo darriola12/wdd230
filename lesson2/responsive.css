@@ -1,0 +1,22 @@
+@media screen and (min-width: 200px) and (max-width: 899px)
+{
+    header nav p
+    {
+        font-size: small;
+
+        }
+        main
+    {
+        display: grid;
+        grid-template-columns:  auto;
+
+    }
+    .card
+    {
+        font-size: small;
+    }
+
+    
+
+}
+    
