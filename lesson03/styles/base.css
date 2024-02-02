@@ -91,6 +91,10 @@ header nav a:hover
 .mySlides {
   display: none;
 }
+ .slide_img
+ {
+    width: 100%;
+ }
 
 /* Next & previous buttons */
 .prev, .next {
