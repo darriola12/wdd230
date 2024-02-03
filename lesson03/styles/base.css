@@ -177,6 +177,11 @@ header nav a:hover
 
 
 /* grid main  */
+#site
+{
+    background-color: #000814;
+    color: #ffffff;
+}
 main 
 {
     display: grid;
