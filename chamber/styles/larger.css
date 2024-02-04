@@ -1,0 +1,13 @@
+@media screen and (min-width: 350px) and (max-width: 420px) 
+{
+    #navagation_bar
+    {
+        display: flex;
+        justify-content: center;
+    }
+    main 
+    {
+        display: grid;
+        grid-template-columns: 1fr 500px;
+    }
+}
