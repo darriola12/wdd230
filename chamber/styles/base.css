@@ -1,0 +1,93 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Noto+Serif:wght@300&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+:root
+{
+    --heading-secondMain-font: "Plafair Display";
+    --paragraph-font: "Noto Serif";
+    --heading-main-font: "Dancing Script";
+    --heading-nav-font: "Bebas Neue"
+}
+
+/* header  */
+
+header
+{
+    background-color: #000814;
+}
+
+#img_logo
+{
+    height: 65px;
+    width: 80px;
+    margin-left: 6px;  
+     
+}
+
+/* header */
+
+#logo h3
+{
+    margin-left: 14px;
+    font-family: var(--heading-main-font);
+    color: white;
+}
+
+
+
+header nav
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#logo
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+header nav a
+{
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    font-size: 24px;
+    font-family: var(--heading-nav-font);
+}
+header nav a:hover
+{
+    color: #717171;
+}
+
+#navagation_bar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+footer
+{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 5px;
+    background-color: beige;
+    background-color: black;
+    color: white;
+    
+}
+
+
+
