@@ -51,7 +51,7 @@ header
 
 header nav a
 {
-    
+    display: block;
     text-decoration: none;
     padding: 8px;
     color: white;
@@ -90,14 +90,26 @@ header nav a:hover
     color: white;
 }
 
-#button_container
-{
-    position: absolute;
-    right: 30%;
-    bottom: 20%;
-    
+
+.navigation a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px black;
+}
+
+.navigation.open {
+    display: block;
+    width: 100%;
+}
 
 
+.active::before {
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px black;
+    content: ">";
+
+}
+
+.active {
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px black;
 }
 
 
@@ -157,5 +169,6 @@ footer
 {
     margin: 10px;
 }
+
 
 

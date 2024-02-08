@@ -1,15 +1,15 @@
-@media scren and (min-width: 300px ) {
-
-    #img_logo
-    {
-        width: 10%;
-    }
-    #nagivation_bar{
-        display: flex;
-    }
-    footer
-    {
-        display: flex;
-    }
-    
-}
+@media only screen and (min-width: 40em)
+{
+    .navigation {
+		display: flex;
+	}
+	.navigation a {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+        text-align: center;
+	}
+	
+	#my-button {
+		display: none;
+	}
+}   
