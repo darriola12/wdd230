@@ -15,7 +15,7 @@
     <!-- social media -->
 
     <meta property="og:title" content="Tamarindo Chamber Beach">
-    <meta property="og:type" content="Chamber of Commerce" >
+    <meta property="og:type" content="Website" >
     <meta property="og:image" content= "https://maximonivel.com/wp-content/uploads/monteverde-cloud-forest-views.jpg">
     <meta property="og:url" content="https://darriola12.github.io/wdd230/chamber/index.html">
 
@@ -30,37 +30,35 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
     
+    
 </head>
 
 <body>
     <header>
-        <nav>
-            <div id="logo">
-                <img id="img_logo"  src="images/logo_img.jpg" alt="logo">
-                <h3>TAMARINDO <br>
-                Chamber Adventure </h3>
-            </div>
-            <div id="navagation_bar">   
+        <div id="logo">
+            <img id="img_logo"  src="images/logo_img.jpg" alt="logo">
+            <h1>TAMARINDO <br>
+            Chamber Adventure </h1>
+        </div>
+        <div id="navagation_bar"> 
+            <nav class="navigation">  
                 <a href="chamber-site-plan.html">Home</a>
                 <a href="">Discover</a>
                 <a href="">Directory</a>
                 <a href="">Join</a>
-            </div>
-        </nav>
+            </nav>
+        </div>
+        <button id="my-button"></button>
     </header>
-    <section id="hero_img">
-        <div>
+        <div id="hero_container">
             <img id="hero" src="images/hero_img.webp" alt="beach">
+            <!-- <button id="button_container"><span>JOIN US</span></button> -->
 
         </div>
-            
-        
-       
-    </section>
     <main>
         <section id="event" class="card">
             <div >
-                <h3>Events</h3>
+                <h2>Events</h2>
             </div>
         </section>
         <section id="weather" class="card">
@@ -75,17 +73,24 @@
         </aside>
     </main>
     <footer>
-        <div id="information_footer">
-            <p>©2024</p>
-            <p>Diego Arriola|Software Engineer</p>
-            <p>Costa Rica</p>
+        <div id="logo_footer">
+            <img id="img_logo"  src="images/logo_img.jpg" alt="logo">
+            <h1>TAMARINDO <br>
+            Chamber Adventure </h1>
+        </div>
+        <div id="information">
+            <p>Tamarindobeach@gmail.com</p>
+            <p>Calle 3, av 4, Alajuela, San Jose</p>
+            <p>+506 6543 6534</p>
+            <p>Diego Arriola</p>
         </div>
         <div id="dates">
          <p id="currentDate"></p>
          <p id="lastModified"></p>
         </div>
     </footer>
-    <script src="scripts/slide.js"></script>
+    <script src="scripts/date.js"></script> 
+    <script src="scripts/hamburguer.js"></script>    
     
 </body>
 </html>

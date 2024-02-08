@@ -15,6 +15,11 @@
 header
 {
     background-color: #000814;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80px;
+   
+    align-items: center;
 }
 
 #img_logo
@@ -25,7 +30,7 @@ header
      
 }
 
-#logo h3
+#logo h1
 {
     margin-left: 14px;
     font-family: var(--heading-main-font);
@@ -34,11 +39,7 @@ header
 
 
 
-header nav
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+
 
 #logo
 {
@@ -50,6 +51,7 @@ header nav
 
 header nav a
 {
+    
     text-decoration: none;
     padding: 8px;
     color: white;
@@ -69,18 +71,59 @@ header nav a:hover
     
 }
 
+#my-button {
+    margin-top: 20px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: #747a7a;
+    height: 50px;
+}
+
+#my-button::before {
+    content: "☰";
+    color: white;
+}
+
+#my-button.open::before {
+    content: "X";
+    color: white;
+}
+
+#button_container
+{
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+    
+
+
+}
+
 
 /* main */
 
 #hero
 {
   width: 100%;
+  position: relative;
   
 }
 main
 {
   display: grid;
-  grid-template-columns: 600px 1fr;
+  grid-template-columns: auto 1fr;
+}
+.card
+{
+    height: 70px;
+    outline: auto;
+    text-align: center;
+    padding-top: 8px;
+    margin: 7px;
+    font-family: var(--heading-nav-font);
+    font-size: 30px;
+
 }
 
 
@@ -91,14 +134,28 @@ main
 footer
 {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
     text-align: center;
     margin: 5px;
     background-color: beige;
     background-color: black;
     color: white;
+    width: auto;
+    height: 110px;
     
 }
 
+#logo_footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--heading-main-font);
+}
+#logo_footer img
+{
+    margin: 10px;
+}
 
 

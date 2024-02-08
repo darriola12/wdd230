@@ -1,0 +1,15 @@
+@media scren and (min-width: 300px ) {
+
+    #img_logo
+    {
+        width: 10%;
+    }
+    #nagivation_bar{
+        display: flex;
+    }
+    footer
+    {
+        display: flex;
+    }
+    
+}
