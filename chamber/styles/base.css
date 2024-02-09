@@ -68,6 +68,7 @@ header nav a:hover
     display: flex;
     justify-content: center;
     align-items: center;
+
     
 }
 
@@ -78,6 +79,11 @@ header nav a:hover
     right: 1rem;
     background: #747a7a;
     height: 50px;
+}
+
+.navigation
+{
+    display: none;
 }
 
 #my-button::before {
@@ -91,10 +97,7 @@ header nav a:hover
 }
 
 
-.navigation a:hover {
-    text-decoration: underline;
-    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px black;
-}
+
 
 .navigation.open {
     display: block;

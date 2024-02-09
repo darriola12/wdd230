@@ -1,6 +1,10 @@
-@media only screen and (min-width: 40em)
+@media only screen and (min-width: 640px)
 {
-    .navigation {
+    #img_logo
+	{
+		max-width: 100%;
+	}
+	.navigation {
 		display: flex;
 	}
 	.navigation a {
@@ -12,4 +16,11 @@
 	#my-button {
 		display: none;
 	}
+	footer
+	{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+
 }   
