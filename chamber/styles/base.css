@@ -22,7 +22,7 @@ header
     align-items: center;
 }
 
-#logo_picture
+.logo_picture
 {
     height: 65px;
     width: 80px;
