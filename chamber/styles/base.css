@@ -22,7 +22,7 @@ header
     align-items: center;
 }
 
-#img_logo
+#logo_picture
 {
     height: 65px;
     width: 80px;
@@ -51,7 +51,7 @@ header
 
 header nav a
 {
-    display: block;
+    
     text-decoration: none;
     padding: 8px;
     color: white;
@@ -60,8 +60,11 @@ header nav a
 }
 header nav a:hover
 {
-    color: #717171;
+    color: #747a7a;
 }
+
+
+
 
 #navagation_bar
 {
@@ -127,7 +130,7 @@ header nav a:hover
 main
 {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 800px 1fr;
 }
 .card
 {
@@ -139,6 +142,16 @@ main
     font-family: var(--heading-nav-font);
     font-size: 30px;
 
+}
+aside 
+{
+    height: 70px;
+    outline: auto;
+    text-align: center;
+    padding-top: 8px;
+    margin: 7px;
+    font-family: var(--heading-nav-font);
+    font-size: 30px;
 }
 
 
