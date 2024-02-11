@@ -1,4 +1,4 @@
-@media only screen and (min-width: 340px) 
+@media  screen and (min-width:800px) 
 {
     .navigation {
         display: flex;
@@ -6,11 +6,13 @@
         text-align: center;
         justify-content: space-around;
         padding: 0;
+        
     }
 
     .navigation a {
         display: block;
         flex: 1 1 100%;
+        
     }
     .navigation.open {
         display: flex;
@@ -18,18 +20,21 @@
 	
     main 
     {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 100px 1fr 
     }
 	
 	#my-button {
 		display: none;
+        
 	}
 
     footer 
     {
         display: flex;
+        flex-direction: ;
         font-size: small;
+        
     }
 
 }   
