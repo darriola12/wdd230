@@ -75,6 +75,35 @@ header nav a:hover
     
 }
 
+
+/* HERO CONTAINER  */
+
+#hero
+{
+  width: 100%;
+  position: relative;
+  
+}
+#hero_paragraph
+{
+    position: absolute;
+    right: 95px;
+    bottom: 155px;
+    font-size: 49px;
+    color: white;
+    
+    
+}
+#hero_paragraph #word_welcome
+{
+    font-size: 85px;
+    font-family: var(--heading-main-font);
+    white-space: nowrap;
+
+}
+
+
+
 #my-button {
     margin-top: 20px;
     position: absolute;
@@ -118,15 +147,71 @@ header nav a:hover
     text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px black;
 }
 
+/* TOGGLE SWITH  */
+
+.switch {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 28px;
+    right: 15px;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 1px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+  /* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
 
 /* main */
 
-#hero
-{
-  width: 100%;
-  position: relative;
-  
-}
 main
 {
   display: grid;
@@ -153,6 +238,7 @@ aside
     font-family: var(--heading-nav-font);
     font-size: 30px;
 }
+
 
 
 
