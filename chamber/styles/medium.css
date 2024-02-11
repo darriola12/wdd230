@@ -16,9 +16,20 @@
         display: flex;
     }
 	
+    main 
+    {
+        display: flex;
+        flex-direction: row;
+    }
 	
 	#my-button {
 		display: none;
 	}
+
+    footer 
+    {
+        display: flex;
+        font-size: small;
+    }
 
 }   
