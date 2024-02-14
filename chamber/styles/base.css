@@ -212,11 +212,7 @@ input:checked + .slider:before {
 
 /* main */
 
-main
-{
-  display: grid;
-  grid-template-columns: 800px 1fr;
-}
+
 .card
 {
     height: 70px;
@@ -239,12 +235,6 @@ aside
     font-size: 30px;
 }
 
-
-
-
-
-
-
 footer
 {
     display: grid;
@@ -257,16 +247,8 @@ footer
     color: white;
     width: auto;
     height: 110px;
-    
 }
 
-#logo_footer
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--heading-main-font);
-}
 #logo_footer img
 {
     margin: 10px;

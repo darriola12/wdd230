@@ -1,4 +1,4 @@
-@media  screen and (min-width:800px) 
+@media  screen and (min-width:400px) 
 {
     .navigation {
         display: flex;
@@ -21,7 +21,7 @@
     main 
     {
         display: grid;
-        grid-template-columns: 100px 1fr 
+        grid-template-columns: 1000px 1fr 
     }
 	
 	#my-button {
@@ -29,11 +29,29 @@
         
 	}
 
-    footer 
+    footer  
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        place-items: center;
+        text-align: center;
+        margin: 5px;
+        background-color: beige;
+        background-color: black;
+        color: white;
+        width: auto;
+        height: 110px;
+    }
+
+    #logo_footer
     {
         display: flex;
-        font-size: small;
-        
+        justify-content: center;
+        align-items: center;
+        font-family: var(--heading-main-font);
     }
+
+
+    
 
 }   
