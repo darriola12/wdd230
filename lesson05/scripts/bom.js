@@ -2,6 +2,11 @@ const input = document.querySelector("#favchap");
 const button = document.querySelector("button");
 const list = document.querySelector("#list");
 
+const chaptersArray = [getChapterList];
+const getChapterList = "";
+
+
+
 button.addEventListener("click", () => {
     if (input.value == ""){alert("Cannot be blank")}
     if (input.value != "")

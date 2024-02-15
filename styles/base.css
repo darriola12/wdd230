@@ -1,11 +1,14 @@
 /* fronts */
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 
 :root {
 
     --heading-font: "Bebas Neue";
     --paragraph-font: "Roboto Slab";
+    --hover-font: "Dancing Script";
     /* colors  */
     --primary: #9590A8;
     --secondary: #634B66;
@@ -62,6 +65,29 @@ nav #navagation_options a:hover
     color: black;
     font-size: 23px;
 }
+
+
+/* HOVER  */
+
+
+#hover img
+{
+    
+    width: 100%;
+    height: auto;
+}
+
+#herolabel1
+{
+    position: absolute;
+    top: 330px;
+    left: 185px;
+    font-size: 34px ;
+    font-family: var(--hover-font);
+    color: white;
+
+}
+
 
 
 
