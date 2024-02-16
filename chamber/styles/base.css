@@ -216,7 +216,7 @@ input:checked + .slider:before {
 
 .card
 {
-    height: 70px;
+    height: auto;
     outline: auto;
     text-align: center;
     padding-top: 8px;
@@ -236,6 +236,42 @@ aside
     font-size: 30px;
 }
 
+
+
+
+/* WEATHER  */
+
+#label_result
+{
+    font-size: 20px;
+    font-family: var(--paragraph-font);
+}
+#result
+{
+    margin-bottom: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 8px;
+    
+}
+
+#getWeather 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#calculateWind
+{
+    width: 80px;
+    margin-top: 7px;
+    
+}
+
+
+
+
 footer
 {
     display: grid;
@@ -247,7 +283,13 @@ footer
     background-color: black;
     color: white;
     width: auto;
-    height: 110px;
+    height: 140px;
+}
+
+footer #information
+{
+    font-size: small;
+    padding: 9px;
 }
 
 #logo_footer img

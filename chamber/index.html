@@ -77,6 +77,13 @@
             <div >
                 <h3>Weather</h3>
             </div>
+            <section id="getWeather">
+                <label for="wind">Wind Speed: <input type="text" id="windInput"></label>
+                <label for="temperature">Temperature: <input type="text" id="temperatureInput"></label>
+                <button id="calculateWind" >Calculate</button>
+                <label for="result" id="label_result" >result:</label>
+                <input type="text" id="result" name="result" disabled>
+            </section> 
         </section>
         <aside  id="spotlights">
             <div>
@@ -92,9 +99,8 @@
         </div>
         <div id="information">
             <p>Tamarindobeach@gmail.com</p>
-            <p>Calle 3, av 4, Alajuela, San Jose</p>
+            <p>Calle 3, av 4 <br> Alajuela, San Jose</p>
             <p>+506 6543 6534</p>
-            <p>Diego Arriola</p>
         </div>
         <div id="dates">
          <p id="currentDate"></p>
@@ -104,6 +110,7 @@
     <script src="scripts/date.js"></script> 
     <script src="scripts/hamburguer.js"></script>   
     <script src="scripts/darkmode.js"></script> 
+    <script src="scripts/windchill.js"></script>
     
 </body>
 </html>
