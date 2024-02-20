@@ -13,6 +13,6 @@ else
     visit.textContent = `This is your first visit. 🥳 Welcome!`;
 }
 
-visit++;
+numberVisit++;
 
 localStorage.setItem("visit", numberVisit);
