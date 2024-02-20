@@ -98,9 +98,21 @@ main
     max-width: 100%;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows:  100px 1fr 1fr;
+    grid-template-rows: auto;
     justify-content: center;
     
+}#maps
+{
+    width: 860px;
+    height: 255px;
+}
+#map
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
 }
 
 
@@ -115,6 +127,7 @@ main
 }
 .card
 {
+    background-color: var(--cards);
     display: grid;
     outline: auto;
     margin: 5px;
@@ -127,14 +140,7 @@ main
     font-size: 35px;
     text-decoration:underline;
 }
-#section1
-{
-    background-color: var(--cards);
-}
-#section2
-{
-    background-color: var(--cards);
-}
+
 #option_card a
 {
     text-decoration: none;
