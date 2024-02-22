@@ -5,7 +5,7 @@ let numberVisit = Number(window.localStorage.getItem("visit")) || 0;
 
 if (numberVisit != 0)
 {
-    visit.textContent == numberVisit;
+    visit.textContent = numberVisit;
 
 }
 else
