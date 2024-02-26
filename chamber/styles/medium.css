@@ -18,11 +18,13 @@
         display: flex;
     }
 	
-    /* main 
+    main 
     {
         display: grid;
-        grid-template-columns: 1fr 1fr 
-    } */
+        grid-template-columns: 1fr;
+        
+        
+    }
 	
 	#my-button {
 		display: none;

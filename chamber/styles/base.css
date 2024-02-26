@@ -254,10 +254,19 @@ aside
 }
 .images
 {
-    padding-top: 65px;
-    width: 600px;
-    height: 420px;
+    margin-top: 65px;
+    width: 500px;
+    height: 320px;
     display: block;
+}
+
+.images:hover
+{
+    box-shadow: 0 0 20px #333;
+}
+.images
+{
+    border-radius: 15px 80px;
 }
 
 .events-section h2
