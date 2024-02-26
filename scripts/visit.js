@@ -1,16 +1,16 @@
 localStorage.setItem("visit", 0 );
-const visit = document.querySelector(".visits");
+const visitCounter = document.querySelector(".visits");
 
 let numberVisit = Number(window.localStorage.getItem("visit")) || 0;
 
 if (numberVisit != 0)
 {
-    visit.textContent = numberVisit;
+    visitCounter.textContent = numberVisit;
 
 }
 else
 {
-    visit.textContent = `This is your first visit. 🥳 Welcome!`;
+    visitCounter.textContent = `This is your first visit. 🥳 Welcome!`;
 }
 
 numberVisit++;

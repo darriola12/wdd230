@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>Chamber of Commerce</title>
+
+    <!-- website information -->
+
+    <meta name="author" content="Diego Arriola">
+    <meta name="description" content="Website that contained information about the tamarindo beach, such as activities, places to visit, gastronomy and others">
+
+    <!-- social media -->
+
+    <meta property="og:title" content="Tamarindo Chamber Beach">
+    <meta property="og:type" content="Website" >
+    <meta property="og:image" content= "https://maximonivel.com/wp-content/uploads/monteverde-cloud-forest-views.jpg">
+    <meta property="og:url" content="https://darriola12.github.io/wdd230/chamber/index.html">
+
+    <!-- favicon -->
+
+    <link rel="icon" href="favicon-SVG.svg">
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img class="logo_picture"  src="images/logo_webp.webp" alt="logo">
+            <h1>TAMARINDO <br>
+            Chamber Adventure </h1>
+        </div>
+        <div id="navagation_bar"> 
+            <nav class="navigation">  
+                <a href="chamber-site-plan.html">Home</a>
+                <a href="">Discover</a>
+                <a href="">Directory</a>
+                <a href="">Join</a>
+            </nav>
+        </div>
+        <!-- TOGGLE SWITCH  -->
+     <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+        <button id="my-button"></button>
+    </header>
+    <!-- <div id="hero_container">
+        <picture>
+            <source srcset="images/wdd230-org-small.webp" media="(max-width: 500px)">
+            <source srcset="images/wdd230-org-medium.webp" media="(max-width: 1000px)">
+            <img src="images/wdd230-org-large.webp" alt="People having a converatin" width="1250" height="800">
+        </picture>
+    </div> -->
+    <main>
+        <div class="container">
+            <div class="sidebar">
+                <section class="events-section">
+                    <h2>Events</h2>
+                    <p>kfjdklgdfjgfjdlfgk</p>
+                </section>
+                <section class="events-section">
+                    <h2>Attractions</h2>
+
+                    <p>kfjdklgdfjgfjdlfgk</p>
+                </section>
+                <section class="events-section">
+                    <h2>Calendar</h2>
+                    <p>kfjdklgdfjgfjdlfgk</p>
+                </section>
+            </div>
+            <div class="img-container">
+                <picture>
+                    <img class="images" src="images/IMG1.webp" alt="Adventure"> 
+                    <img class="images" src="images/IMG2.webp" alt="Attractions">
+                    <img class="images" loading="lazy" src="images/IMG3.webp" alt="Adventure"  width="600" height="420">
+                    <img class="images" loading="lazy" src="images/IMG4_1.webp" alt="Adventure"  width="600" height="420">
+                    <img class="images" loading="lazy" src="images/IMG5.webp" alt="Adventure"  width="600" height="420">
+                    <img class="images" loading="lazy" src="images/IMG6.webp" alt="Attractions"  width="600" height="420">
+                </picture>
+            </div>
+        </div>
+    </main>
+    <div>
+        <label for="last-visit" class="last-visit">
+            <p class="visit-paragraph"></p>
+        </label>
+    </div>
+
+
+
+   
+    <footer>
+        <div id="logo_footer">
+            <img class="logo_picture"  src="images/logo_webp.webp" alt="logo">
+            <p>TAMARINDO <br>
+            Chamber Adventure </p>
+        </div>
+        <div id="information">
+            <p>Tamarindobeach@gmail.com</p>
+            <p>Calle 3, av 4 <br> Alajuela, San Jose</p>
+            <p>+506 6543 6534</p>
+        </div>
+        <div id="dates">
+         <p id="currentDate"></p>
+         <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/date.js"></script> 
+    <script src="scripts/hamburguer.js"></script>   
+    <script src="scripts/darkmode.js"></script> 
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/lastvisit.js"></script>
+</body>
+</html>
