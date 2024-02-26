@@ -1,24 +1,30 @@
-document.addEventListener("DOMContentLoaded", () => 
-    {
-        const newDate =  new Date().getTime(); 
-        document.querySelector(".visit-paragraph");
-        localStorage.setItem("visitDate", new Date());
+document.addEventListener("DOMContentLoaded", () => {
+    const downcount = document.querySelector(".downcount");
+    
+    let timenow = new Date().getTime();
+    var lastdate = localStorage.getItem("downcount");
 
-        const getDate = localStorage.getItem("visitDate");
+    if(lastdate) {
+        let timedifference = timenow - parseInt(lastdate);
+        let daysdifference = Math.floor(timedifference / (1000 * 60 * 60 * 24));
 
-        if()
-        {
-            let timeifference = newDate - parseInt(getDate);
-            let daysdifference = Math.floor(timeifference / (1000 * 60 * 60 * 24)); 
-
-            if ()
-
+        if(daysdifference === 0) {
+            downcount.textContent = "Back so soon";
+        } else if (daysdifference === 1) {
+            downcount.textContent = "Your last visit was 1 day ago";
+        } else {
+            downcount.textContent = `Your last visit was ${daysdifference} days ago`;
         }
+    } else {
+        downcount.textContent = "Welcome! Let us know if you have any questions";
+    }
+
+    localStorage.setItem("downcount", timenow.toString()); 
 
 
-        
 
-    }))
+});
+
 
 
 
