@@ -22,8 +22,6 @@ function checkSame() {
 
 
 
-
-
 const rangevalue = document.getElementById("rangevalue");
 const range = document.getElementById("r");
 
