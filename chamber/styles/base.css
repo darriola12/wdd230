@@ -406,8 +406,10 @@ footer #information
     background-color: var(--back2);
     justify-content: center;
     height: 60px;
-    font-size: 24px;
+    font-size: 30px;
     font-family: var(--heading-secondMain-font);
+    font-family: var(--heading-nav-font);
+    
    
     
 }
