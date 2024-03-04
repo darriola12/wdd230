@@ -1,0 +1,186 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>Chamber of Commerce</title>
+
+    <!-- website information -->
+
+    <meta name="author" content="Diego Arriola">
+    <meta name="description" content="Website that contained information about the tamarindo beach, such as activities, places to visit, gastronomy and others">
+
+    <!-- social media -->
+
+    <meta property="og:title" content="Tamarindo Chamber Beach">
+    <meta property="og:type" content="Website" >
+    <meta property="og:image" content= "https://maximonivel.com/wp-content/uploads/monteverde-cloud-forest-views.jpg">
+    <meta property="og:url" content="https://darriola12.github.io/wdd230/chamber/index.html">
+
+    <!-- favicon -->
+
+    <link rel="icon" href="favicon-SVG.svg">
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo_picture"  src="images/logo_webp.webp" alt="logo">
+            <h1>TAMARINDO <br>
+            Chamber Adventure </h1>
+        </div>
+        <div id="navagation_bar"> 
+            <nav class="navigation">  
+                <a href="chamber-site-plan.html">Home</a>
+                <a href="">Discover</a>
+                <a href="">Directory</a>
+                <a href="Join.html">Join</a>
+            </nav>
+        </div>
+        <!-- TOGGLE SWITCH  -->
+     <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+        <button id="my-button"></button>
+    </header>
+    <main class="form_main">
+        <form action="thankyou.html" method="get" autocomplete="on" >
+            <div class="header_form"><h1>Personal Information</h1></div>
+            <div class="body_form">
+                <label for="Fname"> First Name*<input type="text" name="Fname" id="Fname" required ></label>
+                <label for="lname">Last Name*<input type="text" name="lname" id="lname" required></label>
+                <label for="email">Email* <input type="email" name="email" id="email" placeholder="example@gmail.com" required></label>
+                <label for="title">Title <input type="text" name="title" id="title" pattern="[A-Za-z- ]{7,}"></label>
+                <label for="phone_number">Phone Number* <input type="tel"></label>
+                <label for="business"> Business/organization's name* <input type="text" name="business" id="business" required></label>
+                <div class="member_option">
+                    <h3>Membership Level:</h3>
+                    <label><input type="radio" name="Membership" value="NP">NP Membership is for non profit  organizations</label>
+                    <label><input type="radio" name="Membership" value="bronze">Bronze Membership</label>
+                    <label><input type="radio" name="Membership" value="silver">Silver Membership</label>
+                    <label> <input type="radio" name="Membership" value="gold">Gold Membership</label>
+                </div>
+                <label for="description">Description </label>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                <label for="date"><input type="hidden" id="date" value=""></label>
+                <label for="button"> <input type="submit" value="Submit information" id="button"></label>
+            </div>
+
+ 
+        </form>
+        <div class="benefits_table">
+            <table>
+                <thead>
+                    <tr>
+                        <th  colspan="5" scope="colgroup" >Membership Benefits </th>
+                    </tr>
+                    <tr>
+                        <th>Benefits</th>
+                        <th>No Membership</th>
+                        <th>Bronze</th>
+                        <th>Silver</th>
+                        <th>Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Exclusive Discounts</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Priority Booking</td>
+                        <td></td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Exclusive Events</td>
+                        <td></td>
+                        <td>X</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Dedicated Concierge Service</td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Special Amenities</td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+
+                    <tr>
+                        <td>Customized Experiences</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>VIP Treatment</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Annual Retreat</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+
+                    
+
+                    
+                </tbody>
+                
+
+            </table>
+        </div>
+    </main>
+    <footer>
+        <div id="logo_footer">
+            <img class="logo_picture"  src="images/logo_webp.webp" alt="logo">
+            <p>TAMARINDO <br>
+            Chamber Adventure </p>
+        </div>
+        <div id="information">
+            <p>Tamarindobeach@gmail.com</p>
+            <p>Calle 3, av 4 <br> Alajuela, San Jose</p>
+            <p>+506 6543 6534</p>
+        </div>
+        <div id="dates">
+         <p id="currentDate"></p>
+         <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/date.js"></script> 
+    <script src="scripts/hamburguer.js"></script>   
+    <script src="scripts/darkmode.js"></script> 
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/lastvisit.js"></script>
+</body>
+</html>

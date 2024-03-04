@@ -2,12 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Noto+Serif:wght@300&family=Playfair+Display:ital,wght@1,500&display=swap');
 
+
 :root
 {
     --heading-secondMain-font: "Plafair Display";
     --paragraph-font: "Noto Serif";
     --heading-main-font: "Dancing Script";
-    --heading-nav-font: "Bebas Neue"
+    --heading-nav-font: "Bebas Neue";
+    --back: rgb(14, 15, 15);
+    --back2: hsla(150, 50%, 30%, .5);
+    --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsla(0,0%,20%,.8);
+	--borderlight: hsla(0,0%,33%,.3);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
 }
 
 /* header  */
@@ -376,6 +385,179 @@ footer #information
 {
     margin: 10px;
 }
+
+
+/* ___________JOIN_____________ */
+
+.form_main
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+
+
+.header_form
+{
+    display: flex;
+    align-items: center;
+    background-color: var(--back2);
+    justify-content: center;
+    height: 60px;
+    font-size: 24px;
+    font-family: var(--heading-secondMain-font);
+   
+    
+}
+
+form 
+{
+    border: 1px solid black;
+    width: 550px;
+    margin: 19px;
+    border-radius: 8px ;
+}
+
+
+label input:required
+{
+    border-right: 5px solid red;
+}
+
+label input:required:valid
+{
+    border-right: 5px solid red  ;
+}
+
+.body_form label
+{
+    display: block;
+    margin-top: 28px;
+    margin-left: 30px;
+    font-size: 19px;
+    
+
+}
+
+
+.body_form label input
+{
+    display: block;
+    margin-top: 7.5px;
+    width: 300px;
+    height: 32px;
+    font-size: 19px;
+}
+
+
+
+
+
+.member_option label input
+{
+    display: inline;
+    width: 40px;
+    height: 18px;
+    
+}
+
+#description
+{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.member_option label 
+{
+    margin-top: 4px;
+
+}
+.member_option h3{
+
+    padding-top: 22px;
+    font-size: 19px;
+    margin-left: 28px;
+}
+
+#button 
+{
+    
+    margin-left: 80px;
+    margin-bottom: 28px;
+    background-color: var(--back2);
+
+}
+
+
+
+
+
+/* ______TABLE__________ */
+
+
+
+
+table {
+	margin-top: 180px;
+    margin-left: 30px;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+    
+   
+}
+
+
+
+tr:first-child th, .highlight {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--zebra);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
