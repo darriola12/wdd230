@@ -58,23 +58,28 @@
         <form action="thankyou.html" method="get" autocomplete="on" >
             <div class="header_form"><h1>Welcome to our Club</h1></div>
             <div class="body_form">
-                <label for="Fname"> First Name*<input type="text" name="Fname" id="Fname" required ></label>
-                <label for="lname">Last Name*<input type="text" name="lname" id="lname" required></label>
-                <label for="phone_number">Phone Number* <input type="tel"></label>
-                <label for="email">Email* <input type="email" name="email" id="email" placeholder="example@gmail.com" required></label>
-                <label for="title">Title <input type="text" name="title" id="title" pattern="[A-Za-z- ]{7,}"></label>
-                <label for="business"> Business/organization's name* <input type="text" name="business" id="business" required></label>
-                <div class="member_option">
-                    <h3>Membership Level:</h3>
-                    <label><input type="radio" name="Membership" value="NP">NP Membership is for non profit  organizations</label>
-                    <label><input type="radio" name="Membership" value="bronze">Bronze Membership</label>
-                    <label><input type="radio" name="Membership" value="silver">Silver Membership</label>
-                    <label> <input type="radio" name="Membership" value="gold">Gold Membership</label>
+                <div class="Pinformation">
+                    <label for="Fname"> First Name*<input type="text" name="Fname" id="Fname" required ></label>
+                    <label for="lname">Last Name*<input type="text" name="lname" id="lname" required></label>
+                    <label for="phone_number">Phone Number* <input type="tel"></label>
+                    <label for="email">Email* <input type="email" name="email" id="email" placeholder="example@gmail.com" required></label>
+                </div>
+                <div class="AboutYou">
+                    <label for="title">Title <input type="text" name="title" id="title" pattern="[A-Za-z- ]{7,}"></label>
+                    <label for="business"> Business/organization's name* <input type="text" name="business" id="business" required></label>
+                    <div class="member_option">
+                        <h3>Membership Level:</h3>
+                        <label><input type="radio" name="Membership" value="NP">NP Membership is for non profit  organizations</label>
+                        <label><input type="radio" name="Membership" value="bronze">Bronze Membership</label>
+                        <label><input type="radio" name="Membership" value="silver">Silver Membership</label>
+                        <label> <input type="radio" name="Membership" value="gold">Gold Membership</label>
+                    </div>
                 </div>
                 <label for="description">Description </label>
                 <textarea name="description" id="description" cols="30" rows="10"></textarea>
+                </div>
                 <label for="date"><input type="hidden" id="date" value=""></label>
-                <label for="button"> <input type="submit" value="Submit information" id="button"></label>
+                <label for="button"> <input type="submit" value="Join to the club " id="button"></label>
             </div>
 
  

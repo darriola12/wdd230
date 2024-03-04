@@ -437,7 +437,7 @@ label input:required:valid
 {
     display: block;
     margin-top: 28px;
-    margin-left: 30px;
+    margin-left: 50px;
     font-size: 19px;
     
 
@@ -468,7 +468,7 @@ label input:required:valid
 #description
 {
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .member_option label 
@@ -480,16 +480,29 @@ label input:required:valid
 
     padding-top: 22px;
     font-size: 19px;
-    margin-left: 28px;
+    margin-left: 50px;
 }
+
 
 #button 
 {
     
-    margin-left: 80px;
-    margin-bottom: 28px;
+    margin-left: 150px;
+    margin-top: 28px;
+    margin-bottom: 14px;
     background-color: var(--back2);
+    width: 220px;
+    height: 38px;
+    border-radius: 4px;
+    font-size: 22px;
+    box-shadow:0 0 6px var(--shadow);
+    font-family: var(--heading-nav-font);
 
+}
+
+#button:hover
+{
+    background-color: var(--border);
 }
 
 
@@ -503,7 +516,7 @@ label input:required:valid
 
 table {
 	margin-top: 180px;
-    margin-left: 30px;
+
 	border: thin solid var(--border);
 	box-shadow: 0 0 10px var(--shadow);
 	border-collapse: collapse;
@@ -516,11 +529,13 @@ table {
 tr:first-child th, .highlight {
 	background-color: var(--back);
 	color: var(--forelight);
+    font-size: 28px;
 }
 
 th, td {
-	padding: 7px 15px;
+	padding: 7px 7px;
 	border: 1px solid var(--borderlight);
+    font-size: 21px;
 }
 
 th {
