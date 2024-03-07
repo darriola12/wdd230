@@ -15,10 +15,10 @@ const getProphets = async () => {
 const displayProphets = (prophets) => {
     prophets.forEach(prophet => {
         let section = document.createElement("section");
-        let fullName = document.createElement("h2");
+        let name = document.createElement("h2");
         let portrait = document.createElement("img");
 
-        fullName.textContent = prophet.fullname;
+        name.textContent = prophet.fullname;
         portrait.setAttribute("src", prophet.imageurl);
         portrait.setAttribute("alt", prophet.fullname);
         portrait.setAttribute("loading", "lazy");

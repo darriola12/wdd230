@@ -4,8 +4,26 @@
             "lesson":"02",
             "link":[
                 {
-                    "url":"",
-                    "title" : "Desing Principles Document" 
+                    "url":"https://github.com/darriola12/wdd230/tree/main/lesson02",
+                    "title" : "Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson":"03",
+            "link":[
+                {
+                    "url": "https://github.com/darriola12/wdd230/tree/main/lesson03" ,
+                    "title": "Chamber Site Plan"
+                }
+            ]
+        },
+        {
+            "lesson":"05",
+            "link":[
+                {
+                    "url": "https://github.com/darriola12/wdd230/tree/main/lesson05" ,
+                    "title": "Book of Mormon"
                 }
             ]
         }
