@@ -206,6 +206,13 @@ input:checked + .slider:before {
 /* main */
 
 
+.main_discover
+{
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+
 .card
 {
     height: auto;
