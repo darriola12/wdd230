@@ -1,5 +1,10 @@
 @media screen and (min-width: 600px)
 {
+    header
+    {
+        width: 100%;
+    }
+
     .navigation {
         display: flex;
         flex-direction: row;
@@ -45,6 +50,7 @@
         color: white;
         width: auto;
         height: 110px;
+        width: auto;
     }
 
     /* #logo_footer
@@ -58,6 +64,11 @@
     footer
     {
         height: 140px;
+    }
+
+    table 
+    {
+        width: 250px;
     }
     
 
