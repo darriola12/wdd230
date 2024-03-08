@@ -8,9 +8,9 @@ const companies = async () => {
   
 }
 
-function displayInformation(companies) {
+function displayInformation(info) {
   const container = document.querySelector(".container");
-  companies.forEach(company => {
+  info.forEach(company => {
     const companySection = document.createElement("section");
 
     const companyNameHeading = document.createElement("h1");
