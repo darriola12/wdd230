@@ -1,14 +1,12 @@
 const url = "https://darriola12.github.io/wdd230/chamber/data/members.json";
 
 const companies = async () => {
-  try {
+
     const response = await fetch(url);
     const companiesData = await response.json();
     displayInformation(companiesData.companies);
-  } catch (error) {
-    console.error("Error fetching data:", error);
-  }
-};
+  
+}
 
 function displayInformation(companies) {
   const container = document.querySelector(".container");
@@ -23,10 +21,15 @@ function displayInformation(companies) {
     phoneNumberHeading.textContent = company.phoneNumber; 
 
     const addressHeading = document.createElement("h3");
-    addressHeading.textContent = company.address; 
+    addressHeading.textContent = company.addresses; 
 
     const companyImg = document.createElement("img");
-    companyImg.src = company.logoUrl;
+    companyImg.setAttribute("src", company.image);
+    companyImg.setAttribute("alt", company.name);
+    companyImg.setAttribute("loading", "lazy");
+    companyImg.setAttribute("width", "340");
+    companyImg.setAttribute("height", "440");
+
 
     companySection.appendChild(companyNameHeading);
     companySection.appendChild(phoneNumberHeading); 
