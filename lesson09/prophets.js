@@ -7,25 +7,26 @@ const getProphets = async () => {
         const response = await fetch(url);
         const data = await response.json();
         displayProphets(data.prophets);
-    } catch (error) {
-        console.error("Error fetching data:", error);
+    }catch(error)
+    {
+        console.error("sorry", error);
     }
 }
 
 const displayProphets = (prophets) => {
     prophets.forEach(prophet => {
         let section = document.createElement("section");
-        let name = document.createElement("h2");
         let portrait = document.createElement("img");
+        let fullname = document.createElement("h2");
 
-        name.textContent = prophet.fullname;
+        fullname.textContent = prophet.name;
         portrait.setAttribute("src", prophet.imageurl);
-        portrait.setAttribute("alt", prophet.fullname);
+        portrait.setAttribute("alt", prophet.name );
         portrait.setAttribute("loading", "lazy");
         portrait.setAttribute("width", "340");
         portrait.setAttribute("height", "440");
 
-        section.appendChild(fullName);
+        section.appendChild(fullname);
         section.appendChild(portrait);
 
         card.appendChild(section);

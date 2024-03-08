@@ -11,19 +11,24 @@ const getURL = async () => {
         console.error("Oops, something went wrong", error);
     }
 
-    function displaylinks(lessons) {
-        const optionCard = document.getElementById("option_card");
+    function displaylinks(weeks) {
+        const getdiv = document.querySelector("#section2");
 
-        lessons.forEach(element => {
-            const listItem = document.createElement("li");
-            listItem.classList.add("option_card");
-            const anchor = document.createElement("a");
-            anchor.href = element.link[0].url;
-            anchor.textContent = element.lesson;
-            listItem.appendChild(anchor);
-            optionCard.appendChild(listItem);
+        weeks.forEach(week => {
+            const newUl = document.createElement("ul");
+            const newIl = document.createElement("li");
+            const newA = document.createElement("a");
+
+            newA.href = week.link[0].url;
+            newA.textContent = week.link[0].title;
+
+            newIl.textContent = `Week: ${week.lesson} | `;
+            newIl.appendChild(newA);
+
+            newUl.appendChild(newIl);
+            getdiv.appendChild(newUl);
         });
     }
-}
+} 
 
 getURL();
