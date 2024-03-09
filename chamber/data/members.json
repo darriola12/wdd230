@@ -33,7 +33,8 @@
             "websiteURLs": "https://iltcostarica.com",
             "image": "https://www.visitcostarica.com/sites/default/files/2023-06/logoilcr.jpg",
             "membershiplevel": "N/A",
-            "other" : "N/A"
+            "other" : "N/A",
+            "phoneNumber": "1-800-993-8696" 
         },
 
         {
@@ -42,23 +43,26 @@
             "websiteURLs": "https://www.nativeswaycostarica.com",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAF4XfLfd17_BwfWAZCNGaeURWqgCuY-h_hGui6kK9_XrBVoPXeVtxJdTuYeOt8uEpqls&usqp=CAU",
             "membershiplevel": "N/A",
-            "other" : "N/A"
+            "other" : "N/A",
+            "phoneNumber": "1-800-605-2806"
         },
         {
             "name": "jw Marriot Guanacaste",
             "addresses": "Guanacaste, tamarindo, Costa Rica",
-            "websiteURLs": "https://www.marriott.com/",
+            "websiteURLs": "https://www.marriott.com/es/hotels/sjojw-jw-marriott-guanacaste-resort-and-spa/overview/",
             "image": "https://cache.marriott.com/content/dam/marriott-renditions/SJOJW/sjojw-pool-0189-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1215px:*",
             "membershiplevel": "N/A",
-            "other" : "N/A"
+            "other" : "N/A",
+            "phoneNumber": "+506 26812000"
         },
         {
             "name": "CALA LUNA",
             "addresses": "2km south of Tamarindo, Airport, Playa Tamarindo, Guanacaste",
             "websiteURLs": "https://www.calaluna.com/",
-            "image": "hhttps://cf.bstatic.com/xdata/images/hotel/max1024x768/57519838.jpg?k=9d689b3d49bcb2e5c128086a0f06b1a2e8787d5ddb82390c897b0e59010fe996&o=&hp=1",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/57519838.jpg?k=9d689b3d49bcb2e5c128086a0f06b1a2e8787d5ddb82390c897b0e59010fe996&o=&hp=1",
             "membershiplevel": "N/A",
-            "other" : "N/A"
+            "other" : "N/A",
+            "phoneNumber": "+506 26530214"
         }
 
         
