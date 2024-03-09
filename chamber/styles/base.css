@@ -598,6 +598,8 @@ ________DIRECTORY__________ */
 {
     font-size: 28px;
     font-family: var(--heading-nav-font);
+    text-decoration: none;
+    color: #000814;
     
 
 }
@@ -606,6 +608,8 @@ ________DIRECTORY__________ */
 {
     font-size: 33px;
     transition: 0.54s;
+   
+
 
 
 }

@@ -33,8 +33,13 @@ function displayInformation(info) {
 
 
     const website = document.createElement("p");
-    website.textContent = company.websiteURLs;
+    // website.textContent = company.websiteURLs;
     website.classList = "info";
+
+    const newA2 = document.createElement("a");
+    newA2.href = company.websiteURLs;
+    newA2.textContent = company.websiteURLs;
+    website.appendChild(newA2);
 
 
     const companyImg = document.createElement("img");
