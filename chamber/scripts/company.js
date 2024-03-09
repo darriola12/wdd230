@@ -16,7 +16,11 @@ function displayInformation(info) {
 
     const companyNameHeading = document.createElement("h1");
     companyNameHeading.classList = "headingDis";
-    companyNameHeading.textContent = company.name;
+
+    const newA = document.createElement("a");
+    newA.href = company.websiteURLs;
+    newA.textContent = company.name;  
+    companyNameHeading.appendChild(newA);
 
    
     const phoneNumberHeading = document.createElement("h2");
@@ -42,10 +46,9 @@ function displayInformation(info) {
     companyImg.setAttribute("height", "140");
 
 
-    const newA = document.createElement("a");
-    newA.href = company.websiteURLs;
+    
 
-    companyNameHeading.appendChild(newA);
+    
 
 
     companySection.appendChild(companyNameHeading);

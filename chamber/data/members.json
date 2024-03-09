@@ -30,7 +30,7 @@
         {
             "name": "I Love Travel Costa Rica",
             "addresses": "calle 23, ave 8, San Jose, Costa Rica",
-            "websiteURLs": "https://iltcostarica.com/atv_mountains_beaches?",
+            "websiteURLs": "https://iltcostarica.com",
             "image": "https://www.visitcostarica.com/sites/default/files/2023-06/logoilcr.jpg",
             "membershiplevel": "N/A",
             "other" : "N/A"
@@ -39,8 +39,8 @@
         {
             "name": "NativesWay",
             "addresses": "200 metros sur del Hoel Diria, tamarnado, Costa Rica, 50309",
-            "websiteURLs": "https://www.nativeswaycostarica.com/tamarindo-tours/",
-            "image": "https://149354985.v2.pressablecdn.com/wp-content/uploads/2018/02/logocolors.png0",
+            "websiteURLs": "https://www.nativeswaycostarica.com",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAF4XfLfd17_BwfWAZCNGaeURWqgCuY-h_hGui6kK9_XrBVoPXeVtxJdTuYeOt8uEpqls&usqp=CAU",
             "membershiplevel": "N/A",
             "other" : "N/A"
         },
@@ -48,7 +48,7 @@
             "name": "jw Marriot Guanacaste",
             "addresses": "Guanacaste, tamarindo, Costa Rica",
             "websiteURLs": "https://www.marriott.com/",
-            "image": "https://marriott.pressarea.com/contents/archives/741/135/images/thumb735x413_width/marriott-international_4bb6a04a7602e_thumb.png",
+            "image": "https://cache.marriott.com/content/dam/marriott-renditions/SJOJW/sjojw-pool-0189-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1215px:*",
             "membershiplevel": "N/A",
             "other" : "N/A"
         },
@@ -56,7 +56,7 @@
             "name": "CALA LUNA",
             "addresses": "2km south of Tamarindo, Airport, Playa Tamarindo, Guanacaste",
             "websiteURLs": "https://www.calaluna.com/",
-            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJMP-9W-F6RaGncyNc2TLW7GTYwBrlpBXhVw&usqp=CAU",
+            "image": "hhttps://cf.bstatic.com/xdata/images/hotel/max1024x768/57519838.jpg?k=9d689b3d49bcb2e5c128086a0f06b1a2e8787d5ddb82390c897b0e59010fe996&o=&hp=1",
             "membershiplevel": "N/A",
             "other" : "N/A"
         }
