@@ -2,7 +2,7 @@
     "companies" : [
         {
             "name": "AllTama",
-            "addresses": "Not available",
+            "addresses": "Calle 6, ave 12, Tamarindo",
             "phoneNumber": "+506 7043-5207",
             "websiteURLs": "https://www.alltama.com/",
             "image": "https://www.alltama.com/wp-content/uploads/2021/02/alltamalogo062221.png",
@@ -20,7 +20,7 @@
         },
         {
             "name":" Tour Guanacaste Costa Rica",
-            "addresses" : "calle 3, ave 8, tamarindo, Guanacaste, 50309",
+            "addresses" : "calle 3, ave 8, tamarindo, 50309",
             "phoneNumber": "2450-0083",
             "websiteURLs": "https://www.tourguanacaste.com",
             "image": "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/41482/cms/599104/940x500-1-50-c40477fff28cb0e9bebb91e4bfce1fb3.jpg",
@@ -49,7 +49,7 @@
         {
             "name": "jw Marriot Guanacaste",
             "addresses": "Guanacaste, tamarindo, Costa Rica",
-            "websiteURLs": "https://www.marriott.com/es/hotels/sjojw-jw-marriott-guanacaste-resort-and-spa/overview/",
+            "websiteURLs": "https://www.marriott.com",
             "image": "https://cache.marriott.com/content/dam/marriott-renditions/SJOJW/sjojw-pool-0189-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1215px:*",
             "membershiplevel": "N/A",
             "other" : "N/A",
