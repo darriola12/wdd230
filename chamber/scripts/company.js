@@ -12,7 +12,10 @@ function displayInformation(info) {
   const container = document.querySelector(".container2");
   info.forEach(company => {
     const companySection = document.createElement("section");
-    companySection.className = "sectionDirectory";
+
+    
+    // se cambio className por classList
+    companySection.classList = "sectionDirectory";  
 
     const companyNameHeading = document.createElement("h1");
     companyNameHeading.classList = "headingDis";

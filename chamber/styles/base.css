@@ -563,12 +563,11 @@ tbody tr:nth-child(odd) {
 ________DIRECTORY__________ */
 
 
-
 .container2
 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
+} 
 
 .sectionDirectory
 {
@@ -623,6 +622,48 @@ ________DIRECTORY__________ */
     font-family: var(--heading-secondMain-font)
 
 }
+
+.grid
+{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.list section img{
+    display: none;
+}
+
+#menu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
 
 
 
