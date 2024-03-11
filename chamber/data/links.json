@@ -27,5 +27,15 @@
                 }
             ]
         }
+        {
+            "lesson":"09",
+            "link" :
+            [
+                {
+                    "url": "https://darriola12.github.io/wdd230/lesson09/prophets.html",
+                    "title": "Prophets"
+                }
+            ]
+        }
     ]
 }
