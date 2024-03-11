@@ -17,6 +17,7 @@ const getURL = async () => {
         weeks.forEach(week => {
             const newUl = document.createElement("ul");
             const newIl = document.createElement("li");
+            newIl.classList("description");
             const newA = document.createElement("a");
 
             newA.href = week.link[0].url;
