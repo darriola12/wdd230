@@ -179,6 +179,32 @@ footer
     padding-bottom: 10px;
     font-size: 21px;
 }
+.weather-icon{
+    position: absolute;
+    margin-top: -10px;
+    
+}
+figcaption
+{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -22px;
+    
+
+}
+
+.current_temp
+{
+    padding-left: 60px;
+}
+#section2 h3
+{
+    padding-bottom: 15px;
+}
+.label2
+{
+    margin-top: 10px;
+}
 
 
 
