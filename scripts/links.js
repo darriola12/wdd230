@@ -12,7 +12,7 @@ const getURL = async () => {
     }
 
     function displaylinks(weeks) {
-        const getdiv = document.querySelector("#section2");
+        const getdiv = document.querySelector("#section3");
 
         weeks.forEach(week => {
             const newUl = document.createElement("ul");

@@ -160,10 +160,31 @@ footer
 
 #section2
 {
+    padding-top: 10px;
+    text-align: left;
     padding-left: 10px;
     padding-bottom: 10px;
     font-size: 21px;
 }
+
+#section1
+{
+    padding-top: 10px;
+}
+#section3
+{
+    padding-top: 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 21px;
+}
+
+
+
+
+
+
 
 
 

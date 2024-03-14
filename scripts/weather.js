@@ -30,6 +30,6 @@ function displayResults(data) {
     let desc = data.weather[0].description;
     wather_icon.setAttribute('src', iconsrc)
     wather_icon.setAttribute('alt', desc)
-    captionDesc.textContent = desc;
+    caption.textContent = desc;
 }
 
