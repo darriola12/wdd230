@@ -675,6 +675,36 @@ figcaption
     margin-top: -29px;
 }
 
+#banner
+{
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffcc00;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  z-index: 9999;
+ 
+}
+#banner p 
+{
+    display: inline;
+    
+    
+}
+.banner_tag
+{
+    background-color:  #ffcc00;
+    border-color: #ffcc00;
+    margin-left: 5px;
+
+}
+    
+
+
 
 
 
