@@ -695,11 +695,12 @@ figcaption
     
     
 }
-.banner_tag
+#banner_tag
 {
     background-color:  #ffcc00;
     border-color: #ffcc00;
     margin-left: 5px;
+    cursor: pointer;
 
 }
     
