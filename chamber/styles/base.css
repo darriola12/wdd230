@@ -350,11 +350,12 @@ aside
 #calculateWind
 {
     width: 80px;
-    margin-top: 7px;
-    
+    margin-top: 7px;   
 }
 
-    /* down-count */
+
+
+ /* down-count */
 
 .container-downcount
 {
@@ -655,6 +656,23 @@ ________DIRECTORY__________ */
     align-items: center;
     height: 48px;
     gap: 20px;
+}
+
+#weather_section
+{
+    height: 110px;
+}
+
+.weather
+{
+    padding-bottom: 15px;
+}
+
+figcaption 
+{
+    position: absolute;
+    margin-left: 755px;
+    margin-top: -29px;
 }
 
 
