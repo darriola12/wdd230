@@ -224,6 +224,7 @@ input:checked + .slider:before {
     font-size: 30px;
 
 }
+
 aside 
 {
     height: 70px;
@@ -660,7 +661,7 @@ ________DIRECTORY__________ */
 
 #weather_section
 {
-    height: 110px;
+    height: auto;
 }
 
 .weather
