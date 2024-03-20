@@ -26,16 +26,18 @@ header
     background-color: #000814;
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 80px;
-   
+    height: 100px;
     align-items: center;
+    
+    
 }
 
 .logo_picture
 {
     height: 65px;
     width: 80px;
-    margin-left: 6px;  
+    margin-left: 19px; 
+    border-radius: 4px; 
      
 }
 
@@ -64,12 +66,13 @@ header nav a
     text-decoration: none;
     padding: 8px;
     color: white;
-    font-size: 24px;
+    font-size: 29px;
     font-family: var(--heading-nav-font);
 }
 header nav a:hover
 {
     color: #747a7a;
+    font-size: 32px;
 }
 
 
@@ -91,7 +94,7 @@ header nav a:hover
 {
   width: 100%;
   height: auto;
-  position: relative;
+  
   
 }
 
@@ -147,7 +150,7 @@ header nav a:hover
     display: inline-block;
     width: 50px;
     height: 28px;
-    right: 15px;
+    right: 80px;
 }
   
 .switch input { 
@@ -662,6 +665,8 @@ ________DIRECTORY__________ */
 #weather_section
 {
     height: auto;
+    background-image: url("https://cdn5.f-cdn.com/contestentries/329593/14249726/5699389419de1_thumb900.jpg");
+    padding-bottom: 10px;
 }
 
 .weather
@@ -669,12 +674,9 @@ ________DIRECTORY__________ */
     padding-bottom: 15px;
 }
 
-figcaption 
-{
-    position: absolute;
-    margin-left: 755px;
-    margin-top: -29px;
-}
+
+
+
 
 #banner
 {
@@ -704,6 +706,7 @@ figcaption
     cursor: pointer;
 
 }
+
     
 
 
