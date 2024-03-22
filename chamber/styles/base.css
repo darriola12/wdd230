@@ -1,6 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Noto+Serif:wght@300&family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Ovo&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 
 :root
@@ -17,6 +18,7 @@
 	--borderlight: hsla(0,0%,33%,.3);
 	--shadow: hsl(0,0%,50%);
 	--zebra: hsl(0, 0%, 93%, 1);
+    --heading-font: "Ovo";
 }
 
 /* header  */
@@ -94,6 +96,7 @@ header nav a:hover
 {
   width: 100%;
   height: auto;
+  margin-bottom: 50px;
   
   
 }
@@ -247,8 +250,59 @@ aside
     
     
 }
+
+#event
+{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    padding-bottom: 10px;
+
+}
+
+
+.img_con 
+{
+    text-align: center;
+}
+
+
+.section-added h2 
+{
+    font-size: 90px;
+    font-family: var(--heading-font);
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.img1
+{   
     
-       /* SIDEBAR */
+    width: 140px;
+    height: 220px;
+    border-radius: 4px;
+    opacity: 78%;
+}
+.img1:hover
+{
+    width: 160px;
+    height: 250px;
+    opacity: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* SIDEBAR */
 
 .sidebar
 {
@@ -667,6 +721,7 @@ ________DIRECTORY__________ */
     height: auto;
     background-image: url("https://cdn5.f-cdn.com/contestentries/329593/14249726/5699389419de1_thumb900.jpg");
     padding-bottom: 10px;
+    color: white;
 }
 
 .weather
