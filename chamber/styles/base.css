@@ -750,7 +750,12 @@ ________DIRECTORY__________ */
 {
     padding-bottom: 15px;
 }
+#weather_section h3{
+    padding-top: 30px;
+    font-size: 38px;
+    font-family: var(--heading-font);
 
+}
 
 
 
@@ -783,6 +788,36 @@ ________DIRECTORY__________ */
     cursor: pointer;
 
 }
+
+.forecast-item{
+    padding-top: 40px;
+}
+
+.map
+{
+    display: grid;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.map p
+{
+    text-align: center;
+    font-size: 55px;
+    font-family: var(--heading-nav-font);
+    
+    margin-bottom: 10px;
+}
+.map img
+{
+    width: 800px;
+    height: 600px;
+    border-radius: 3px;
+    box-shadow: 10px 8px rgb(43, 41, 41);
+
+}
+
+
 
     
 
