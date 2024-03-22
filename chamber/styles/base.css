@@ -101,7 +101,16 @@ header nav a:hover
   
 }
 
+.hero_text
+{
+    position: absolute;
+    top: 300px;
+    right: 80px;
+    font-size: 60px;
+    color: black;
+    font-family: var(--heading-main-font);
 
+}
 
 #my-button {
     margin-top: 20px;
@@ -212,10 +221,18 @@ input:checked + .slider:before {
 /* main */
 
 
+
+
 .main_discover
 {
     margin: 0 auto;
     max-width: 90%;
+}
+
+#text_p
+{
+    font-size: 45px;
+    font-family: var(--heading-main-font);
 }
 
 
@@ -274,6 +291,11 @@ aside
     margin-left: 10px;
     margin-bottom: 10px;
 
+}
+
+.section-added p{
+    font-size: 25px;
+    padding: 30px;
 }
 
 
@@ -719,7 +741,7 @@ ________DIRECTORY__________ */
 #weather_section
 {
     height: auto;
-    background-image: url("https://cdn5.f-cdn.com/contestentries/329593/14249726/5699389419de1_thumb900.jpg");
+    background-image: url(https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg);
     padding-bottom: 10px;
     color: white;
 }
