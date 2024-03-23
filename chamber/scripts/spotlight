@@ -1,0 +1,17 @@
+const url = "https://darriola12.github.io/wdd230/chamber/data/members.json"; 
+
+
+async function getData()
+{
+    const response = await fetch(url);
+    const data_json = await response.json();
+    displayinfo(info);
+}
+
+
+function ramdonObject()
+{
+
+    
+
+}

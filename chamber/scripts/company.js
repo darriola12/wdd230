@@ -45,10 +45,10 @@ function displayInformation(info) {
     website.appendChild(newA2);
 
     const membership = document.createElement("p")
-    membership.textContent = company.membershiplevel;
+    membership.textContent = `Membership level: ${company.membershiplevel}`;
 
     const loyalty = document.createElement("p");
-    loyalty.textContent = company.years; 
+    loyalty.textContent = `Loyalty: ${company.years} years`;
 
 
 
@@ -61,11 +61,6 @@ function displayInformation(info) {
     companyImg.setAttribute("height", "140");
 
 
-    
-
-    
-
-
     companySection.appendChild(companyNameHeading);
     companySection.appendChild(companyImg);
     companySection.appendChild(addressHeading); 
@@ -74,6 +69,8 @@ function displayInformation(info) {
     companySection.appendChild(loyalty);
     companySection.appendChild(website);
     container.appendChild(companySection);
+
+    
   });
 }
 

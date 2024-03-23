@@ -1,0 +1,44 @@
+{
+    "Lunes": {
+      "Nombre del Evento": "Clases de Surf",
+      "Hora": "9:00 AM - 11:00 AM",
+      "Lugar": "Playa Tamarindo, frente al Hotel Tamarindo Diria",
+      "Descripción": "Únete a nuestras clases de surf para principiantes y experimentados. Nuestros instructores expertos te enseñarán las técnicas básicas y avanzadas para surfear las olas de Tamarindo. Equipo de surf incluido."
+    },
+    "Miércoles": {
+      "Nombre del Evento": "Yoga al Amanecer",
+      "Hora": "6:30 AM - 7:30 AM",
+      "Lugar": "Plataforma de Yoga en la Playa Tamarindo",
+      "Descripción": "Despierta tus sentidos con una sesión de yoga revitalizante al amanecer. Disfruta de la tranquilidad de la playa mientras practicas posturas de yoga guiadas por un instructor profesional. Todos los niveles son bienvenidos."
+    },
+    "Jueves": {
+      "Nombre del Evento": "Tour de Observación de Tortugas",
+      "Hora": "7:00 PM - 9:00 PM",
+      "Lugar": "Playa Grande, Tamarindo",
+      "Descripción": "Únete a nosotros en una experiencia única para presenciar la anidación de las tortugas marinas. Acompaña a nuestros expertos guías mientras observas a las tortugas laúd y verdes depositar sus huevos en la playa. Respetamos y protegemos la vida silvestre en su hábitat natural."
+    },
+    "Martes": {
+      "Nombre del Evento": "Caminata Nocturna por la Playa",
+      "Hora": "7:00 PM - 8:30 PM",
+      "Lugar": "Playa Tamarindo",
+      "Descripción": "Únete a nosotros en una caminata nocturna por la playa para explorar la belleza de Tamarindo bajo las estrellas. Con la luz de la luna como guía, caminarás por la costa y descubrirás la vida nocturna de la playa. Se proporcionan linternas y guías expertos."
+    },
+    "Viernes": {
+      "Nombre del Evento": "Fiesta de la Puesta del Sol",
+      "Hora": "5:00 PM - 9:00 PM",
+      "Lugar": "Restaurante y Bar El Sunset, Playa Tamarindo",
+      "Descripción": "Únete a nosotros para celebrar el fin de semana con una fiesta en la playa al atardecer. Disfruta de música en vivo, bebidas refrescantes y deliciosos bocadillos mientras observas el espectacular ocaso sobre el océano Pacífico."
+    },
+    "Sábado": {
+      "Nombre del Evento": "Clase de Stand Up Paddle (SUP)",
+      "Hora": "10:00 AM - 12:00 PM",
+      "Lugar": "Playa Tamarindo",
+      "Descripción": "Aprende a dominar el arte del Stand Up Paddle (SUP) con nuestras clases guiadas por instructores profesionales. Explora las aguas tranquilas de Tamarindo mientras mejoras tu equilibrio y fuerza central. Tablas de SUP y equipo incluido."
+    },
+    "Domingo": {
+      "Nombre del Evento": "Torneo de Voleibol de Playa",
+      "Hora": "3:00 PM - 6:00 PM",
+      "Lugar": "Playa Tamarindo",
+      "Descripción": "Reúnete con amigos y jugadores locales para competir en nuestro torneo de voleibol de playa semanal. Diviértete bajo el sol mientras compites en emocionantes partidos en la arena. Inscripción gratuita y premios para los ganadores."
+    }
+  }

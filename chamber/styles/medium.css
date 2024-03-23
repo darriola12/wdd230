@@ -25,7 +25,7 @@
 
     
 	
-    main 
+    .main_index 
     {
         display: grid;
         grid-template-columns: 300px 1fr;
