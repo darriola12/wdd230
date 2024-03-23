@@ -44,6 +44,13 @@ function displayInformation(info) {
     newA2.textContent = company.websiteURLs;
     website.appendChild(newA2);
 
+    const membership = document.createElement("p")
+    membership.textContent = company.membershiplevel;
+
+    const loyalty = document.createElement("p");
+    loyalty.textContent = company.years; 
+
+
 
     const companyImg = document.createElement("img");
     companyImg.className = "imgDirectory"
@@ -63,6 +70,8 @@ function displayInformation(info) {
     companySection.appendChild(companyImg);
     companySection.appendChild(addressHeading); 
     companySection.appendChild(phoneNumberHeading); 
+    companySection.appendChild(membership);
+    companySection.appendChild(loyalty);
     companySection.appendChild(website);
     container.appendChild(companySection);
   });
