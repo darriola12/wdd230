@@ -1,44 +1,44 @@
 {
-    "Lunes": {
-      "Nombre del Evento": "Clases de Surf",
+    "Monday": {
+      "Nombre_del_Evento": "Clases de Surf",
       "Hora": "9:00 AM - 11:00 AM",
       "Lugar": "Playa Tamarindo, frente al Hotel Tamarindo Diria",
-      "Descripción": "Únete a nuestras clases de surf para principiantes y experimentados. Nuestros instructores expertos te enseñarán las técnicas básicas y avanzadas para surfear las olas de Tamarindo. Equipo de surf incluido."
+      "Descripcion": "Join our surf classes for beginners and experienced surfers. Our expert instructors will teach you the basic and advanced techniques to surf the waves of Tamarindo. Surf equipment included."
     },
-    "Miércoles": {
-      "Nombre del Evento": "Yoga al Amanecer",
+    "Tuesday": {
+      "Nombre_del_Evento": "Yoga al Amanecer",
       "Hora": "6:30 AM - 7:30 AM",
       "Lugar": "Plataforma de Yoga en la Playa Tamarindo",
-      "Descripción": "Despierta tus sentidos con una sesión de yoga revitalizante al amanecer. Disfruta de la tranquilidad de la playa mientras practicas posturas de yoga guiadas por un instructor profesional. Todos los niveles son bienvenidos."
+      "Descripcion":"Awaken your senses with a revitalizing sunrise yoga session. Enjoy the tranquility of the beach while practicing yoga postures guided by a professional instructor. All levels are welcome."
     },
-    "Jueves": {
-      "Nombre del Evento": "Tour de Observación de Tortugas",
+    "Wednesday": {
+      "Nombre_del_Evento": "Tour de Observación de Tortugas",
       "Hora": "7:00 PM - 9:00 PM",
       "Lugar": "Playa Grande, Tamarindo",
-      "Descripción": "Únete a nosotros en una experiencia única para presenciar la anidación de las tortugas marinas. Acompaña a nuestros expertos guías mientras observas a las tortugas laúd y verdes depositar sus huevos en la playa. Respetamos y protegemos la vida silvestre en su hábitat natural."
+      "Descripcion": "Join us for a unique experience to witness sea turtle nesting. Accompany our expert guides as you watch leatherback and green turtles lay their eggs on the beach. We respect and protect wildlife in their natural habitat."
     },
-    "Martes": {
-      "Nombre del Evento": "Caminata Nocturna por la Playa",
+    "Thursday": {
+      "Nombre_del_Evento": "Caminata Nocturna por la Playa",
       "Hora": "7:00 PM - 8:30 PM",
       "Lugar": "Playa Tamarindo",
-      "Descripción": "Únete a nosotros en una caminata nocturna por la playa para explorar la belleza de Tamarindo bajo las estrellas. Con la luz de la luna como guía, caminarás por la costa y descubrirás la vida nocturna de la playa. Se proporcionan linternas y guías expertos."
+      "Descripcion": "Join us on a night beach walk to explore the beauty of Tamarindo under the stars. With the light of the moon as your guide, you will walk along the coast and discover the beach nightlife. Flashlights and expert guides are provided. "
     },
-    "Viernes": {
-      "Nombre del Evento": "Fiesta de la Puesta del Sol",
+    "Friday": {
+      "Nombre_del_Evento": "Fiesta de la Puesta del Sol",
       "Hora": "5:00 PM - 9:00 PM",
       "Lugar": "Restaurante y Bar El Sunset, Playa Tamarindo",
-      "Descripción": "Únete a nosotros para celebrar el fin de semana con una fiesta en la playa al atardecer. Disfruta de música en vivo, bebidas refrescantes y deliciosos bocadillos mientras observas el espectacular ocaso sobre el océano Pacífico."
+      "Descripcion": "Join us as we celebrate the weekend with a sunset beach party. Enjoy live music, refreshing drinks and delicious snacks while watching the spectacular sunset over the Pacific Ocean."
     },
-    "Sábado": {
-      "Nombre del Evento": "Clase de Stand Up Paddle (SUP)",
+    "Saturday": {
+      "Nombre_del_Evento": "Clase de Stand Up Paddle (SUP)",
       "Hora": "10:00 AM - 12:00 PM",
       "Lugar": "Playa Tamarindo",
-      "Descripción": "Aprende a dominar el arte del Stand Up Paddle (SUP) con nuestras clases guiadas por instructores profesionales. Explora las aguas tranquilas de Tamarindo mientras mejoras tu equilibrio y fuerza central. Tablas de SUP y equipo incluido."
+      "Descripcion": "Learn to master the art of Stand Up Paddle (SUP) with our classes guided by professional instructors. Explore the calm waters of Tamarindo while improving your balance and core strength. SUP boards and equipment included."
     },
-    "Domingo": {
-      "Nombre del Evento": "Torneo de Voleibol de Playa",
+    "Sunday": {
+      "Nombre_del_Evento": "Torneo de Voleibol de Playa",
       "Hora": "3:00 PM - 6:00 PM",
       "Lugar": "Playa Tamarindo",
-      "Descripción": "Reúnete con amigos y jugadores locales para competir en nuestro torneo de voleibol de playa semanal. Diviértete bajo el sol mientras compites en emocionantes partidos en la arena. Inscripción gratuita y premios para los ganadores."
+      "Descripcion": "Gather with friends and local players to compete in our weekly beach volleyball tournament. Have fun in the sun while competing in exciting matches in the sand. Free registration and prizes for the winners."
     }
   }

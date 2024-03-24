@@ -817,6 +817,33 @@ ________DIRECTORY__________ */
 
 }
 
+.events_about 
+{
+    border: .5px solid black;
+    margin: 60px;
+    border-radius: 4px;
+
+}
+
+#theme
+{
+    margin-top: 10px;
+    font-size: 38px;
+    font-family: var(--heading-nav-font);
+    text-align: center;
+
+}
+
+.event_part 
+{
+    font-size: 24px;
+    text-align: center;
+    padding: 7px;
+    
+}
+
+
+
 
 
     
