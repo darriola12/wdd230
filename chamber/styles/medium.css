@@ -1,9 +1,6 @@
-@media screen and (min-width: 280px)
+@media screen and (min-width: 600px)
 {
-    header
-    {
-        width: 100%;
-    }
+    
 
     .navigation {
         display: flex;
@@ -62,6 +59,24 @@
     {
         width: 250px;
     }
+
+    .img_con 
+{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.map img
+{
+    width: 800px;
+    height: 650px;
+    border-radius: 3px;
+    box-shadow: 10px 8px rgb(43, 41, 41);
+
+}
+
+
+   
 
     
 
