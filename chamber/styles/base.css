@@ -280,6 +280,8 @@ aside
 .img_con 
 {
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 
@@ -836,7 +838,7 @@ ________DIRECTORY__________ */
 
 .event_part 
 {
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     padding: 7px;
     

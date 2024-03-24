@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px)
+@media screen and (min-width: 280px)
 {
     header
     {
@@ -23,13 +23,15 @@
         display: flex;
     }
 
+
+
     
 	
     .main_index 
     {
         display: grid;
         grid-template-columns: 300px 1fr;
-        grid-template-rows: auto 1fr 1r;
+        grid-template-rows: auto 1fr;
 
         
     }
@@ -52,35 +54,20 @@
         width: auto;
         height: 110px;
         width: auto;
-    }
-
-    /* #logo_footer
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: var(--heading-main-font);
-    } */
-
-    footer
-    {
         height: 140px;
     }
+
 
     table 
     {
         width: 250px;
     }
-    .img_con
-{
-    max-width: auto;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 20px;
-    
+
     
 
-}
+
+
+
     
     
 
