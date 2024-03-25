@@ -351,7 +351,7 @@ aside
 .img-container 
 {
     display: flex;
-    grid-row: 1/2;
+    grid-row: 1/;
     margin: 30px;
     justify-content: center;
     

@@ -114,6 +114,7 @@
     font-size: 85px;
     color: #a06565;
 }
+
 .main_discover
 {
     display: grid;
@@ -121,6 +122,19 @@
     margin: 0 auto;
     
 }
+.sidebar
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.img-container
+{
+    grid-column: 2/3;
+
+}
 
 
-}   
+
+
+
+}
