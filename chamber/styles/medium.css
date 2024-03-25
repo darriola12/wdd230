@@ -92,28 +92,7 @@
     font-family: var(--heading-main-font);
     display: none;
 }
-.but_join
-{
-    top: 40%;
-    right: 15%;
-    position: absolute;
-    width: auto;
-    height: auto;
-    background-color: transparent;
-    border: none;
-}
-.but_join a
-{
-    text-decoration: none;
-    font-size: 80px;
-    font-family: var(--heading-main-font);
-    color: rgb(14, 13, 13);
-}
-.but_join a:hover
-{
-    font-size: 85px;
-    color: #a06565;
-}
+
 
 .main_discover
 {
@@ -132,6 +111,30 @@
     grid-column: 2/3;
 
 }
+.but_join
+{
+    top: 50%;
+    right: 15%;
+    position: absolute;
+    width: auto;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+}
+.but_join a
+{
+    text-decoration: none;
+    font-size: 80px;
+    font-family: var(--heading-main-font);
+    color: rgb(0, 0, 0);
+}
+.but_join a:hover
+{
+    font-size: 85px;
+    color: #eee;
+}
+
+
 
 
 

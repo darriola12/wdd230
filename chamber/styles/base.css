@@ -882,7 +882,8 @@ ________DIRECTORY__________ */
 }
 .but_join
 {
-    top: 40%;
+    position: absolute;
+    top: 17%;
     right: 15%;
     position: absolute;
     width: auto;
@@ -890,22 +891,22 @@ ________DIRECTORY__________ */
     background-color: transparent;
     border: none;
 }
+    
+
 .but_join a
 {
     text-decoration: none;
-    font-size: 80px;
+    font-size: 30px;
     font-family: var(--heading-main-font);
-    color: white;
+    color: rgb(2, 2, 2);
 }
 .but_join a:hover
 {
     font-size: 85px;
     color: #eee;
 }
-.but_join
-{
-    display: none;
 }
+
 
     
 
