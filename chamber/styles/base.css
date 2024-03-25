@@ -390,7 +390,7 @@ aside
 
 .events-about
 {
-    font-size: 24px;
+    font-size: 29px;
 }
 
 
@@ -821,6 +821,8 @@ ________DIRECTORY__________ */
     border: .5px solid black;
     margin: 60px;
     border-radius: 4px;
+    
+
 
 }
 
@@ -835,9 +837,9 @@ ________DIRECTORY__________ */
 
 .event_part 
 {
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
-    padding: 7px;
+    padding: 22px;
     
 }
 
