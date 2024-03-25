@@ -870,7 +870,32 @@ ________DIRECTORY__________ */
 {
     background-color: #f5ebe0;
 }
-
+.but_join
+{
+    top: 40%;
+    right: 15%;
+    position: absolute;
+    width: auto;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+}
+.but_join a
+{
+    text-decoration: none;
+    font-size: 80px;
+    font-family: var(--heading-main-font);
+    color: white;
+}
+.but_join a:hover
+{
+    font-size: 85px;
+    color: #eee;
+}
+.but_join
+{
+    display: none;
+}
 
     
 
