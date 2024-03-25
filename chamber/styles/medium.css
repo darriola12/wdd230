@@ -114,9 +114,13 @@
     font-size: 85px;
     color: #a06565;
 }
-
-
-
+.main_discover
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    
+}
 
 
 }   
