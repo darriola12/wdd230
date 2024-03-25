@@ -805,7 +805,6 @@ ________DIRECTORY__________ */
     text-align: center;
     font-size: 55px;
     font-family: var(--heading-nav-font);
-    
     margin-bottom: 10px;
 }
 .map img
@@ -842,6 +841,23 @@ ________DIRECTORY__________ */
     
 }
 
+
+.upcoming_point
+{
+    font-family: var(--paragraph-font);
+    font-size: medium;
+    padding-top: 30px;
+
+}
+.upcoming_point ul li 
+{
+    margin-top: 20px;
+    font-style:italic
+}
+.upcoming_point ul
+{
+    list-style-type: ;
+}
 
 
 
