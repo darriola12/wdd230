@@ -96,7 +96,7 @@ header nav a:hover
 {
   width: 100%;
   height: auto;
-  margin-bottom: 50px;
+  
   
   
 }
@@ -233,6 +233,7 @@ input:checked + .slider:before {
 {
     font-size: 45px;
     font-family: var(--heading-main-font);
+    display: none;
 }
 
 
@@ -285,11 +286,11 @@ aside
 
 .section-added h2 
 {
-    font-size: 90px;
+    font-size: 37px;
     font-family: var(--heading-font);
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
 
 }
 
@@ -818,9 +819,10 @@ ________DIRECTORY__________ */
 
 .events_about 
 {
-    border: .5px solid black;
+    border: 4px solid rgb(247, 247, 247);
     margin: 60px;
     border-radius: 4px;
+    box-shadow: 8px  5px black;
     
 
 
@@ -861,7 +863,10 @@ ________DIRECTORY__________ */
     list-style-type: ;
 }
 
-
+.main_index
+{
+    background-color: #f5ebe0;
+}
 
 
     

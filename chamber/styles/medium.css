@@ -75,6 +75,22 @@
     box-shadow: 10px 8px rgb(43, 41, 41);
 
 }
+.section-added h2 
+{
+    font-size: 74px;
+    font-family: var(--heading-font);
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+#text_p
+{
+    font-size: 45px;
+    font-family: var(--heading-main-font);
+    
+}
+
 
    
 
