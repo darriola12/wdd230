@@ -1,17 +1,68 @@
-const url = "https://darriola12.github.io/wdd230/chamber/data/members.json"; 
+const spotEntry = document.querySelector('.spot');
+const directory = 'data/members.json';
 
+async function getSpotData() {
+    try {
+        const response = await fetch(directory);
+        const spotEntryData = await response.json();
 
-async function getData()
-{
-    const response = await fetch(url);
-    const data_json = await response.json();
-    displayinfo(info);
+        const spotFiltered = spotEntryData.companies.filter(member => member.membershiplevel === "Gold" || member.membershiplevel === "Silver");
+
+        const randomArray = [];
+        while (randomArray.length < 3) {
+            const randomIndex = Math.floor(Math.random() * spotFiltered.length);
+            if (!randomArray.includes(randomIndex)) {
+                randomArray.push(randomIndex);
+            }
+        }
+
+        const randomEntries = randomArray.map(index => spotFiltered[index]);
+
+        displaySpotlight(randomEntries);
+    } catch (error) {
+        console.error('Error fetching or parsing data:', error);
+    }
 }
+  
+getSpotData();
 
+const displaySpotlight = (members) => {
+    members.forEach((member) => {
 
-function ramdonObject()
-{
-
+        let entry = document.createElement('section');
+        let logo = document.createElement('img');
+        let memberInfo = document.createElement('div')
+        let name = document.createElement('h2');
+        let address = document.createElement('p');
+        let phone = document.createElement('p');    
+        let web = document.createElement('a');
+        let level = document.createElement('p');
+        let founded = document.createElement('p');
     
+        name.textContent = `${member.name}`;
+        address.textContent = `${member.addresses}`;
+        phone.textContent = `${member.phoneNumber}`;
+        level.textContent = `${member.membershiplevel}`;
+        founded.textContent = `${member.years}`;
+        web.href = `${member.websiteURLs}`;
+        web.textContent = `${member.websiteURLs}`;
 
+        logo.setAttribute('class', 'member-logo');
+        logo.setAttribute('src', member.image);
+        logo.setAttribute('alt', `Company logo of ${member.name}`); 
+        logo.setAttribute('loading', 'lazy');
+        logo.setAttribute('width', '200');
+        logo.setAttribute('height', '200');
+
+        memberInfo.setAttribute('class', 'member-info');
+    
+        entry.appendChild(logo);
+        entry.appendChild(memberInfo);
+        memberInfo.appendChild(name);
+        memberInfo.appendChild(address);
+        memberInfo.appendChild(phone);
+        memberInfo.appendChild(web);
+    
+        spotEntry.appendChild(entry);
+    });
 }

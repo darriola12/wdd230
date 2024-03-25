@@ -33,6 +33,7 @@
 
         
     }
+    
 
 
 	
@@ -133,10 +134,23 @@
     font-size: 85px;
     color: #eee;
 }
-
-
-
-
+.spot 
+{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.section_spot h3
+{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 38px;
+    font-family: var(--heading-nav-font);
+    
+}
 
 
 
