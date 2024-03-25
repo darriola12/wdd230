@@ -223,13 +223,7 @@ input:checked + .slider:before {
 
 
 
-.main_discover
-{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr;
-    
-}
+
 
 
 
@@ -341,6 +335,7 @@ aside
     margin-top: 25px;
     margin-left: 25px;
     grid-row: 2/3;
+    
 }
 .events-section {
     padding: 40px;
@@ -351,7 +346,7 @@ aside
 .img-container 
 {
     display: flex;
-    grid-row: 1/;
+    grid-row: 1/2;
     margin: 30px;
     justify-content: center;
     
@@ -905,7 +900,7 @@ ________DIRECTORY__________ */
     font-size: 85px;
     color: #eee;
 }
-}
+
 
 
     
