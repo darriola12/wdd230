@@ -225,8 +225,10 @@ input:checked + .slider:before {
 
 .main_discover
 {
+    display: grid;
+    grid-template-columns: 50% 50%;
     margin: 0 auto;
-    max-width: 90%;
+    
 }
 
 #text_p
@@ -327,6 +329,8 @@ aside
 
 /* SIDEBAR */
 
+
+
 .sidebar
 {
     display: grid;
@@ -385,6 +389,7 @@ aside
 /* MAIN DISCOVER PART */
 
 .paragraph-activities
+
 {
     padding-top: 45px;
     font-size: 25px;
